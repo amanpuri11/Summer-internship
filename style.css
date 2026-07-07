@@ -55,6 +55,7 @@
     object-fit: cover;
     display: block;
 }
+
 .hero-overlay-text {
     position: absolute;
     display: flex;
