@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar,
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  width: 100%;
+  padding: 18px 30px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
+  z-index: 1000;
+}
+
+.menu {
+  gap: 40px;
+}
+
+.logo p,
+.menu p {
+  letter-spacing: 4px;
+}
+
+.image {
+  height: 100vh;
+  background-image: url("https://www.w3schools.com/w3images/hamburger.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.image p {
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+  font-size: 60px;
+  color: rgba(0, 0, 0, 0.5);
+}
